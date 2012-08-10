@@ -1,0 +1,39 @@
+body {
+  background: #fff url(/assets/body_bg.png) repeat-x 0 70px;
+}
+
+.navbar {
+  a.brand {
+    line-height: 50px;
+  }
+
+  div.container {
+    background: none;
+    font: 20px/1 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin-top: 0;
+  }
+}
+
+.container {
+  background-color: #fff;
+  font: 18px/36px Georgia, serif;
+  margin-top: 48px;
+}
+
+.page-header {
+  border-bottom: 1px solid #b2b2b2;
+
+  h2 {
+    font: 900 72px/90px Helvetica, sans-serif;
+  }
+}
+
+.main {
+  margin: 0 15px 60px;
+}
+
+.footer {
+  font: 10px/40px Helvetica;
+  margin: 30px 15px 0;
+  text-transform: uppercase;
+}
