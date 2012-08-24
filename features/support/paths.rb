@@ -1,7 +1,7 @@
 module Paths
   include Spinach::DSL
 
-  When 'I am viewing a page' do
-    visit page_path 1
+  When 'I am looking at the site' do
+    visit root_path
   end
 end
