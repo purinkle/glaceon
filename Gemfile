@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+gem 'devise', '2.1.2'
 gem 'jquery-rails', '2.1.1'
 gem 'pg', '0.14.1.pre.363'
 gem 'rails', '3.2.8'
