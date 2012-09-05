@@ -7,3 +7,11 @@ Feature: List pages
     Given I am a customer
     When I am looking at all the pages
     Then the sign in page is shown
+
+  Scenario: Display the pages index
+    Given I am an administrator
+    And some pages have been created
+    And I am signed in
+    When I am looking at all the pages
+    Then the page index is shown
+    And the pages are listed

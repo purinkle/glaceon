@@ -1,1 +1,21 @@
-<% content_for :title, 'Sign In' %>
+<% content_for :title, 'Pages' %>
+
+<div class="page-header">
+  <h2>Pages</h2>
+</div>
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Id</th>
+
+      <th>Title</th>
+
+      <th>Created at</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <%= render @pages %>
+  </tbody>
+</table>
