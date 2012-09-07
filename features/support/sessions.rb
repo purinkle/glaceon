@@ -15,4 +15,8 @@ module Sessions
     fill_in 'user_password', with: user.password
     click_button 'Sign in'
   end
+
+  When 'I sign in with invalid credentials' do
+    click_button 'Sign in'
+  end
 end
