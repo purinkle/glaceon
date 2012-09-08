@@ -15,3 +15,9 @@ Feature: List pages
     When I am looking at all the pages
     Then the page index is shown
     And the pages are listed
+
+  Scenario: Show the new page page
+    Given I am an administrator
+    And I am signed in
+    When I click the "New" link
+    Then the "New Page" page is shown

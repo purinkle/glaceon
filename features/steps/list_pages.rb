@@ -4,6 +4,10 @@ class ListPages < Spinach::FeatureSteps
   include Paths
   include Sessions
 
+  Then 'the "New Page" page is shown' do
+    should have_selector('title', text: 'New page')
+  end
+
   Then 'the page index is shown' do
     should have_selector 'title', text: 'Pages'
   end
